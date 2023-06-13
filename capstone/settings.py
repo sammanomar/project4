@@ -32,7 +32,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['flight.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['flight.herokuapp.com',
+                 '8000-sammanomar-project4-i3fjbp6hc0.us2.codeanyapp.com']
 
 
 # Application definition
